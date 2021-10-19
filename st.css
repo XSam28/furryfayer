@@ -1,0 +1,131 @@
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+  .navbar-brand {
+    font-size: 32px;
+    font-family: viga;
+    
+
+}
+
+
+
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 80%; 
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+
+ 
+
+.jumbotron  {
+    background-image: url(img/roberto-nickson-Zvnf63bvOxk-unsplash.jpg);
+    background-size: cover;
+    margin-top: -20px;
+    height: 640px;
+    position: relative;
+   
+    background-repeat: repeat-y;
+    
+}
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron {
+    margin-top: -75px;
+    height: 640px;
+
+}
+
+.index-download-btn {
+    text-align: center;
+    margin-top: 150px;
+}
+.m-char-top-man {
+    position: absolute;
+    left: -5%;
+    z-index: 9;
+    width: 29%;
+    webkit-transform: translate3d(0, 0, 0);
+    -ms-webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    /* transition: all 0.3s linear 0s; */
+}
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 90px;
+    padding: 30px;
+}
+
+.workingspace {
+    margin-top: 120px;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+}
+
+.testimonial {
+    margin: 100px;
+}
+
+.testimonial h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.testimonial figure img {
+    width: 90px;
+    margin: 20px 10px 0px;
+    opacity: 0.6;
+}
+
+.testimonial figure h5 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+}
+
+.testimonial figure span {
+    font-size: 12px;
+    color: #acacac;
+}
+
+.testimonial figcaption {
+    text-align: center;
+}
+
+.testimonial figure img.utama {
+    width: 90px;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {background: linear-gradient(90deg, red 0% 16.67%, yellow 16.67% 33.33%, lime 33.33% 50%, cyan 50% 66.67%, blue 66.67% 83.33%, magenta 83.33% 100%), conic-gradient(from 180deg, red 0%, yellow 0 16.67%, lime 0 33.33%, cyan 0 50%, blue 0 66.67%, magenta 0 83.33%, red 0 100%);
+    background-blend-mode: screen, normal;}
